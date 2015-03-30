@@ -1,0 +1,61 @@
+/* CSCI E-3, unit 2B
+Author: Joyce Smith
+    */
+
+}
+html, body { 
+  height:100%; 
+  margin: 0 auto;
+  padding: 0;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 1em;
+}
+
+h2 {
+	  font-family: 'Droid Sans', sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em 0;
+}
+
+html, body {
+  background: url('../img/strange_bullseyes.png')repeat;
+}
+
+/* Background pattern from subtlepatterns.com */
+#container {
+  background-color: rgba(255, 255, 255, 255);
+ height: auto;
+ -webkit-box-shadow: 6px 0 8px -5px #999, -6px 0px 8px -5px #999;
+ -moz-box-shadow: 6px 0 8px -5px #999, -6px 0px 8px -5px #999;
+        box-shadow: 6px 0 8px -5px #999, -6px 0px 8px -5px #999;
+  height: 100%;
+  padding: 0 2em;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+#save {
+  padding-left: 1em≥;
+}
+
+img {
+	padding: 0;
+  margin: 0;
+  size: 50%;
+  float: left;
+}
+#indent {
+  padding-left: 1rem;
+}
+.space_right {
+  padding-right: 3rem;
+}
+
+

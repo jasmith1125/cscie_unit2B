@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSCI E-3 Unit 2 Project:  Part A</title>
+     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/unit2b.css">
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <div class="container">
+    <div id="container" class="row">
+    <div class = large-12 columns>
       <h1>Celebrate It!</h1>
       <h2>Never forget another event!</h2>
+
       <form>
-	      <label for="occasion">Event</label>
-	  	  <input type="text" name="occasion" id="occasion"><br>
-	  	  <label for="date">Event Date</label>
-		  <input type="text" name="date" id="date"><br>
-		  <label for="person">Who We're Celebrating</label>
-		  <input type="text" name="person" id="person"><br>
-		   <label for="notes">Notes</label>
-		  <input type="text" name="notes" id="notes"><br>
-		  <input type="submit" value="Save Event!">
+     	 <div class="row">
+    	<div class="large-3 columns">
+      		<label>Event Description
+        	<input type="text" name="eventDescription" id="eventDescription" />
+      		</label>
+    	</div>
+    	<div class="large-2 columns">
+      		<label>Event Date
+        	<input type="text" name="eventDate" id="eventDate" />
+      		</label>
+    	</div>
+    	<div class="large-3 columns">
+      		<label>Who We&rsquo;re Celebrating
+        	<input type="text" name="who" id="who" />
+      		</label>
+    	</div>
+    	<div class="large-4 columns">
+      		<label>Notes
+        	<input type="text" name="notes" id="notes" />
+      		</label>
+    	</div>
+	     <div id="save" class="row">
+	     <div class="large-12 columns">
+		  <div id="indent"><input type="button" id = "saveBtn" value="Save Event!"></div>
       </form>
-    <div class = "output">
-    <table>
-  <tr>
-    <th>Event</th>
-    <th>Event Date</th> 
-    <th>Who We&rsquo;re Celebrating</th>
-    <th>Notes</th>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
-  </tr>
-</table>
+      </div>
+      </div>
+      <div class="row">
+    		<fieldset>
+        		<legend>List of Events</legend>
+			<div id="output"></div>	
 
     </div>
        
