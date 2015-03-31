@@ -92,7 +92,7 @@ if (persistedData != undefined) {
 		data.push(new Event(d.eventDescription, d.eventDate, d.who, d.notes));
 
 		});
-		//updateOutput();
+		updateOutput();
 	
 }
 }
@@ -112,6 +112,9 @@ var updateOutput = function(event) {
 		outputEl.appendChild(div);
 	}
 } 
+
+
+
 
 
 
