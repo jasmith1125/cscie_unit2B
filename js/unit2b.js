@@ -1,7 +1,12 @@
+/* CSCI E-3, unit 2B
+Author: Joyce Smith */
+
+// This code is based on a demo Mike did on 3/30: https://canvas.harvard.edu/courses/1847/conferences
+
 // Create an array to hold all of the square objects
 var events = [];
 
-// Create a constructor function that enables creation of event
+// Create a constructor function that enables creation of Event object
 var Event = function(eventDescription, eventDate, who, notes) {
     this.eventDescription = eventDescription;
     this.eventDate = eventDate;
@@ -9,6 +14,7 @@ var Event = function(eventDescription, eventDate, who, notes) {
     this.notes = notes;
 }
 
+// Create a function that writes Event to html page
 function writeToPage(anEvent) {
 	var myOutput = document.getElementById("output");
 
@@ -37,9 +43,9 @@ function writeToPage(anEvent) {
 
 		// Add form entries to "output" div
 		myOutput.appendChild(div);
-
 }
 
+// Create function to gather form input, write to page, add event to array, convert to JSON, add to local storage
 function submitEvent() {
 	// Get values
 	var eventDescription = document.getElementById("eventDescription").value;
@@ -77,6 +83,6 @@ window.onload = function() {
 	 }
 }
 
- // Clear form field inputs after submit
+ // Clear form field inputs after submit; from WC3: http://www.w3schools.com/jsref/met_form_reset.asp
 	document.getElementById("eventForm").reset();
 

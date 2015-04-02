@@ -1,8 +1,6 @@
 /* CSCI E-3, unit 2B
-Author: Joyce Smith
-    */
+Author: Joyce Smith */
 
-}
 html, body { 
   height:100%; 
   margin: 0 auto;
@@ -22,7 +20,7 @@ h2 {
     font-style: normal;
     font-size: 1.5em;
     text-align: center;
-    padding: 1em 0;
+    padding-bottom: 1em; 
 }
 
 html, body {
@@ -32,7 +30,7 @@ html, body {
 
 /* Background pattern from subtlepatterns.com */
 #container {
-  background-color: rgba(255, 255, 255, 255);
+  background-color: rgba(255, 255, 255, 1.0);
  height: auto;
  -webkit-box-shadow: 6px 0 8px -5px #999, -6px 0px 8px -5px #999;
  -moz-box-shadow: 6px 0 8px -5px #999, -6px 0px 8px -5px #999;
@@ -43,15 +41,9 @@ html, body {
 }
 
 #save {
-  padding-left: 1em≥;
+  padding-left: 1em;
 }
 
-img {
-	padding: 0;
-  margin: 0;
-  size: 50%;
-  float: left;
-}
 #indent {
   padding-left: 1rem;
 }
